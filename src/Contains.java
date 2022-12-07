@@ -11,9 +11,9 @@ public class Contains {
 
         System.out.println("First LinkedList :" + ll);
 
-        System.out.println("\nDoes the List contains 'War'" + ll.contains("Hello"));
-        System.out.println("Does the List contains 'All'" + ll.contains("All"));
-        System.out.println("Does the List contains 'Peace'" + ll.contains("Peace"));
+        System.out.println("\nDoes the List contains 'War' :" + ll.contains("Hello"));
+        System.out.println("Does the List contains 'All' :" + ll.contains("All"));
+        System.out.println("Does the List contains 'Peace' :" + ll.contains("Peace"));
 
     }
 }

@@ -12,8 +12,9 @@ public class DescendinglteratorYE {
   
             Iterator x = list.descendingIterator();
   
+            System.out.println("\nLinkedList in descending order:");
             while (x.hasNext()) {
-                System.out.println("Value is : " + x.next());
+                System.out.println(x.next());
+        }
     }
-}
 }
