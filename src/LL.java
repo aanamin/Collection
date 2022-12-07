@@ -102,6 +102,10 @@ public class LL {
         System.out.println("Hasil dari method set : " +list + "Dengan ukuran LinkedList =" + list.size());
         System.out.println("----------------------------------------");
         
+        //method isEmpty 
+        System.out.println("Mengecek apakah linkedlist saat ini kosong? : " + list.isEmpty());
+        System.out.println("--------------------------------------------------");
+        
         //method clear
         list.clear();
         System.out.println("isi linkedlist baru setelah diclear : " + list);
