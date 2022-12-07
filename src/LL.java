@@ -19,18 +19,28 @@ public class LL {
 
         list.addAll(ll);
         System.out.println("isi linkedlist baru setelah ditambah linkedlist lama :" + list);
+        System.out.println("-----------------------------------------------------------------");
+       
+        System.out.println("Hasil method element() : " + list.element());
+        System.out.println("Hasil linkedlist setelah dipakai method element() : " + list);
+        //hasilnya tidak akan ada perubahan dari linkedlist sebelumnya
+        System.out.println("---------------------------------------------------------------");
+        
+        //jenis jenis method get
+        System.out.println("Hasil dari method get(int index) : " + list.get(4));
+        System.out.println("Hasil dari method getFirst() : " +list.getFirst());
+        System.out.println("Hasil dari method getFirst() : " + list.getLast());
 
-        System.out.println(list.element());
-        System.out.println(list.get(4));
-        System.out.println(list.getFirst());
-        System.out.println(list.getLast());
-        System.out.println(list.indexOf("C"));
+        //method indexof
+        System.out.println("Hasil dari method indexof : " + list.indexOf("C"));
 
+        //method offer
+        System.out.println("Linkedlist sebelum dioffer : "+list);
         list.offer("Portugal");
-        System.out.println(list);
+        System.out.println("Hasil method offer : " + list);
 
         list.offerFirst("Brazil");
-        System.out.println(list);
+        System.out.println("hasil method offerFirst : " + list);
 
         list.offerLast("Spanyol");
         System.out.println(list);
