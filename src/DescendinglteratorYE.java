@@ -14,6 +14,6 @@ public class DescendinglteratorYE {
   
             while (x.hasNext()) {
                 System.out.println("Value is : " + x.next());
+        }
     }
-}
 }
